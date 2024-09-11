@@ -56,7 +56,7 @@ body {
 .contacts a:hover {
   color: #404bbf;
 }
-.order-service {
+.button {
   background-color: #4d5ae5;
   font-weight: 500;
   color: #ffffff;
@@ -65,7 +65,7 @@ body {
   letter-spacing: 4%;
 }
 
-.order-service:hover {
+.button:hover {
   background-color: #404bbf;
   cursor: pointer;
 }
