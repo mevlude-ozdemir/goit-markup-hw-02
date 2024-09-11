@@ -26,18 +26,23 @@ body {
   color: #2e2f42;
 }
 
-.navigation > li {
+.navigation > ul {
   list-style-type: none;
 }
-.navigation > li a {
+.navigation > ul a {
+  list-style-type: none;
   text-decoration: none;
   font-weight: 500;
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
 }
-.navigation > li a:hover {
+.navigation > ul a:hover {
   color: #404bbf;
+}
+.navigation .studio:active {
+  color: #404bbf;
+  text-decoration: underline;
 }
 .contacts a {
   text-decoration: none;
@@ -63,7 +68,6 @@ body {
 .order-service:hover {
   background-color: #404bbf;
   cursor: pointer;
-  
 }
 
 .title {
