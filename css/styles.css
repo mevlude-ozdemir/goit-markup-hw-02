@@ -37,6 +37,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+ul {
+  list-style-type: none;
+}
 .navigation > ul a:hover {
   color: #404bbf;
 }
@@ -82,17 +85,51 @@ body {
 }
 h2 {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 2%;
   color: #2e2f42;
 }
 h3 {
   font-size: 20px;
-  font-weight: medium;
+  font-weight: 500;
   letter-spacing: 2%;
   color: #2e2f42;
 }
+.strategy p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2e2f42;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  /* text-align: left; */
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team li {
+  width: 264px;
+  height: 380px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
 
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  /* text-align: center; */
+}
+
+.portfolio li {
+  width: 360px;
+  height: 420px;
+  border: 1px solid #e7e9fc;
+}
 .footer {
   width: 1440px;
   height: 312px;
@@ -111,18 +148,14 @@ h3 {
   color: #4d5ae5;
 }
 .accent-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-style: normal;
   color: #fafafd;
-  font-size: 18px;
 }
 .footer-text {
   width: 264px;
   height: 72px;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5em;
   letter-spacing: 0.02em;
   text-align: left;
   color: #f4f4fd;
