@@ -66,30 +66,39 @@ ul {
 .contacts .contacts-link:focus {
   color: #404bbf;
 }
+
+.section-1 {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.title {
+  font-size: 56px;
+  font-weight: bold;
+  letter-spacing: 0.02;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+}
+
 .button {
   background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .button:hover {
   background-color: #404bbf;
-  cursor: pointer;
+}
+.button:focus {
+  background-color: #404bbf;
 }
 
-.title {
-  font-size: 56px;
-  font-weight: bold;
-  letter-spacing: 2%;
-  line-height: 60px;
-  background-color: #2e2f42;
-  color: #ffffff;
-  width: 1440px;
-  height: 600px;
-}
 h2 {
   font-size: 36px;
   font-weight: 700;
@@ -102,7 +111,7 @@ h3 {
   letter-spacing: 2%;
   color: #2e2f42;
 }
-.strategy p {
+.section-2 p {
   font-size: 16px;
   font-weight: 400;
   color: #2e2f42;
