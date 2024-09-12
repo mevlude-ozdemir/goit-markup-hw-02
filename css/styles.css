@@ -44,7 +44,7 @@ ul {
 .navigation > ul a:hover {
   color: #404bbf;
 }
-.navigation:first-child {
+.navigation #studio:focus {
   color: #404bbf;
   text-decoration: underline;
 }
