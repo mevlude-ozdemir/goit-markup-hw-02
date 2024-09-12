@@ -63,6 +63,9 @@ ul {
 .contacts .contacts-link:hover {
   color: #404bbf;
 }
+.contacts .contacts-link:focus {
+  color: #404bbf;
+}
 .button {
   background-color: #4d5ae5;
   font-weight: 500;
