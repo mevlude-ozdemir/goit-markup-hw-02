@@ -67,7 +67,7 @@ ul {
   color: #404bbf;
 }
 
-.section-1 {
+.section-one {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
@@ -75,7 +75,7 @@ ul {
 .title {
   font-size: 56px;
   font-weight: bold;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   line-height: 1.07;
   text-align: center;
   color: #ffffff;
