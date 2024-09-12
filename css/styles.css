@@ -48,16 +48,19 @@ ul {
   color: #404bbf;
   text-decoration: underline;
 }
-.contacts a {
+.contacts {
+  font-style: normal;
+}
+.contacts .contacts-link {
   text-decoration: none;
   font-weight: 400;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
-.contacts a:hover {
+.contacts .contacts-link:hover {
   color: #404bbf;
 }
 .button {
