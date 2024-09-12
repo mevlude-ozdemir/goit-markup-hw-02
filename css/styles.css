@@ -102,6 +102,10 @@ ul {
 h2 {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   letter-spacing: 2%;
   color: #2e2f42;
 }
@@ -120,10 +124,10 @@ h3 {
   letter-spacing: 0.02em;
   /* text-align: left; */
 }
-.team {
+.section-three {
   background-color: #f4f4fd;
 }
-.team li {
+.section-three li {
   width: 264px;
   height: 380px;
   background-color: #ffffff;
