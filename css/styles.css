@@ -36,6 +36,7 @@ body {
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 ul {
   list-style-type: none;
@@ -43,7 +44,7 @@ ul {
 .navigation > ul a:hover {
   color: #404bbf;
 }
-.navigation .studio:active {
+.navigation .studio:focus {
   color: #404bbf;
   text-decoration: underline;
 }
